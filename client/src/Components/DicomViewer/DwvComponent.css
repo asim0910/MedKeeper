@@ -1,0 +1,39 @@
+#dwv {
+  height: 90%;
+}
+
+.button-row {
+  text-align: center;
+}
+
+/* Layers */
+.layerContainer {
+  position: relative;
+  padding: 0;
+  margin: auto;
+  text-align: center;
+}
+.layer {
+  position: absolute;
+  pointer-events: none;
+}
+.drawDiv {
+  position: absolute;
+  pointer-events: none;
+}
+
+/* drag&drop */
+.dropBox {
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+  height: 75%;
+  background: #dff7e5;
+}
+/* .dropBoxBorder { */
+/* border: 5px dashed #e8eaf6; indigo:light */
+/* } */
+.dropBoxBorder.hover {
+  border: 5px dashed #3f51b5; /*indigo*/
+}
